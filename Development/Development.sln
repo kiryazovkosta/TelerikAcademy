@@ -9,9 +9,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01.CSharpBasic", "01.CSharp
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01. Introduction-to-Programming", "01. Introduction-to-Programming", "{EB92A624-3E1B-4D64-8ADA-6E7E6305EE66}"
-	ProjectSection(SolutionItems) = preProject
-		CSharpBasic\01.Introduction-to-Programming\readme.txt = CSharpBasic\01.Introduction-to-Programming\readme.txt
-	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02.CSharpAdvanced", "02.CSharpAdvanced", "{07CCF158-D869-40B9-8311-090032A76C1A}"
 EndProject
@@ -21,9 +18,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01.Arrays", "01.Arrays", "{
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02. Data-Types-and-Variables", "02. Data-Types-and-Variables", "{BEB7D767-6772-4621-886C-F4DEFF6A9C1F}"
-	ProjectSection(SolutionItems) = preProject
-		CSharpBasic\02. Data-Types-and-Variables\readme.txt = CSharpBasic\02. Data-Types-and-Variables\readme.txt
-	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03. Operators-and-Expressions", "03. Operators-and-Expressions", "{6D41E1D4-DAFF-484A-AF31-CEA14084FCE6}"
 	ProjectSection(SolutionItems) = preProject
