@@ -3,13 +3,18 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2003
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CSharpBasic", "CSharpBasic", "{FFB945EB-B783-4385-A2A0-B792D57B2E27}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01.CSharpBasic", "01.CSharpBasic", "{FFB945EB-B783-4385-A2A0-B792D57B2E27}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01. Introduction-to-Programming", "01. Introduction-to-Programming", "{EB92A624-3E1B-4D64-8ADA-6E7E6305EE66}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.HelloWorld", "CSharpBasic\01.Introduction-to-Programming\04.HelloWorld\04.HelloWorld.csproj", "{CB24892B-31F2-414A-A7DE-B4255AA48CA0}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CSharpAdvanced", "CSharpAdvanced", "{07CCF158-D869-40B9-8311-090032A76C1A}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02.CSharpAdvanced", "02.CSharpAdvanced", "{07CCF158-D869-40B9-8311-090032A76C1A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01.Arrays", "01.Arrays", "{CF1C1BF0-9485-4572-8EC0-E3388E0D3A61}"
+	ProjectSection(SolutionItems) = preProject
+		CSharpAdvanced\01.Arrays\readme.txt = CSharpAdvanced\01.Arrays\readme.txt
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -28,6 +33,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{EB92A624-3E1B-4D64-8ADA-6E7E6305EE66} = {FFB945EB-B783-4385-A2A0-B792D57B2E27}
 		{CB24892B-31F2-414A-A7DE-B4255AA48CA0} = {EB92A624-3E1B-4D64-8ADA-6E7E6305EE66}
+		{CF1C1BF0-9485-4572-8EC0-E3388E0D3A61} = {07CCF158-D869-40B9-8311-090032A76C1A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {41F87646-8465-425A-8B7B-268D679CFCF5}
