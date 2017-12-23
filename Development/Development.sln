@@ -55,7 +55,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "07. Exception-Handling", "0
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "08. Text-Files", "08. Text-Files", "{C6917D0F-C238-47B0-9B3E-53F2CFDA950A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.DeclareVariables", "CSharpBasic\02. Data-Types-and-Variables\01.DeclareVariables\01.DeclareVariables.csproj", "{8A8ADAD5-A94D-4AA0-8B77-AA6582C18E58}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8A8ADAD5-A94D-4AA0-8B77-AA6582C18E58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A8ADAD5-A94D-4AA0-8B77-AA6582C18E58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A8ADAD5-A94D-4AA0-8B77-AA6582C18E58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A8ADAD5-A94D-4AA0-8B77-AA6582C18E58}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
@@ -75,6 +87,7 @@ Global
 		{CDA84D87-AAAA-4369-B3D3-6C29F5F1C289} = {07CCF158-D869-40B9-8311-090032A76C1A}
 		{F62D3CB8-14C8-45D7-A06B-AA566755A182} = {07CCF158-D869-40B9-8311-090032A76C1A}
 		{C6917D0F-C238-47B0-9B3E-53F2CFDA950A} = {07CCF158-D869-40B9-8311-090032A76C1A}
+		{8A8ADAD5-A94D-4AA0-8B77-AA6582C18E58} = {BEB7D767-6772-4621-886C-F4DEFF6A9C1F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {41F87646-8465-425A-8B7B-268D679CFCF5}
