@@ -1,8 +1,12 @@
-﻿using System;
-using System.Numerics;
-
-namespace _10.NFactorial
+﻿namespace _10.NFactorial
 {
+    using System;
+    using System.Numerics;
+
+    /// <summary>
+    /// Write a method that multiplies a number represented as an array of digits by a given integer number. 
+    /// Write a program to calculate N!.
+    /// </summary>
     public class Factorial
     {
         public static void Main(string[] args)
