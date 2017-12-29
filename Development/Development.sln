@@ -241,6 +241,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.SubStringInText", "CShar
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.ParseTags", "CSharpAdvanced\05. Strings-and-Text-Processing\05.ParseTags\05.ParseTags.csproj", "{4652098B-FCBD-4C03-90E4-B7442273920F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.StringLength", "CSharpAdvanced\05. Strings-and-Text-Processing\06.StringLength\06.StringLength.csproj", "{56C2F776-76E5-4F03-AB18-10324D786C47}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07.EncodeAndDecode", "CSharpAdvanced\05. Strings-and-Text-Processing\07.EncodeAndDecode\07.EncodeAndDecode.csproj", "{73C771BE-CCCB-4543-B75F-5C040FF013B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08.ExtractSentences", "CSharpAdvanced\05. Strings-and-Text-Processing\08.ExtractSentences\08.ExtractSentences.csproj", "{CBB4C641-A515-4DCC-B739-133ACF15EF7A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -647,6 +653,18 @@ Global
 		{4652098B-FCBD-4C03-90E4-B7442273920F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4652098B-FCBD-4C03-90E4-B7442273920F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4652098B-FCBD-4C03-90E4-B7442273920F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56C2F776-76E5-4F03-AB18-10324D786C47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56C2F776-76E5-4F03-AB18-10324D786C47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56C2F776-76E5-4F03-AB18-10324D786C47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56C2F776-76E5-4F03-AB18-10324D786C47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73C771BE-CCCB-4543-B75F-5C040FF013B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73C771BE-CCCB-4543-B75F-5C040FF013B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73C771BE-CCCB-4543-B75F-5C040FF013B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73C771BE-CCCB-4543-B75F-5C040FF013B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBB4C641-A515-4DCC-B739-133ACF15EF7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBB4C641-A515-4DCC-B739-133ACF15EF7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBB4C641-A515-4DCC-B739-133ACF15EF7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBB4C641-A515-4DCC-B739-133ACF15EF7A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -766,6 +784,9 @@ Global
 		{4A129A90-77D9-4426-B979-CD7A90BCFC60} = {CDA84D87-AAAA-4369-B3D3-6C29F5F1C289}
 		{0B037B37-DA2D-48EF-BF3A-C05A7A116240} = {CDA84D87-AAAA-4369-B3D3-6C29F5F1C289}
 		{4652098B-FCBD-4C03-90E4-B7442273920F} = {CDA84D87-AAAA-4369-B3D3-6C29F5F1C289}
+		{56C2F776-76E5-4F03-AB18-10324D786C47} = {CDA84D87-AAAA-4369-B3D3-6C29F5F1C289}
+		{73C771BE-CCCB-4543-B75F-5C040FF013B9} = {CDA84D87-AAAA-4369-B3D3-6C29F5F1C289}
+		{CBB4C641-A515-4DCC-B739-133ACF15EF7A} = {CDA84D87-AAAA-4369-B3D3-6C29F5F1C289}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {41F87646-8465-425A-8B7B-268D679CFCF5}
