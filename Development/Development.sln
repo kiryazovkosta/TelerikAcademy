@@ -301,6 +301,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03.Object-Oriented-Programm
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01.Defining-Classes-Part-1", "01.Defining-Classes-Part-1", "{D6FF7DFC-EE10-4722-AE26-953BC05D175E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GsmUniverse", "Object-Oriented-Programming\01.Defining-Classes-Part-1\GsmUniverse\GsmUniverse.csproj", "{979CAFDC-D50F-4A76-AE64-0FF96E28943D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -819,6 +821,10 @@ Global
 		{64562265-E4EB-4F2D-9F15-9ADD5CD026DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{64562265-E4EB-4F2D-9F15-9ADD5CD026DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{64562265-E4EB-4F2D-9F15-9ADD5CD026DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{979CAFDC-D50F-4A76-AE64-0FF96E28943D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{979CAFDC-D50F-4A76-AE64-0FF96E28943D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{979CAFDC-D50F-4A76-AE64-0FF96E28943D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{979CAFDC-D50F-4A76-AE64-0FF96E28943D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -967,6 +973,7 @@ Global
 		{8A96C1F7-28AF-47C2-BD9B-BB709AC54B85} = {C6917D0F-C238-47B0-9B3E-53F2CFDA950A}
 		{64562265-E4EB-4F2D-9F15-9ADD5CD026DB} = {C6917D0F-C238-47B0-9B3E-53F2CFDA950A}
 		{D6FF7DFC-EE10-4722-AE26-953BC05D175E} = {980C5270-4E48-45F4-9C06-F2942A50D2D4}
+		{979CAFDC-D50F-4A76-AE64-0FF96E28943D} = {D6FF7DFC-EE10-4722-AE26-953BC05D175E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {41F87646-8465-425A-8B7B-268D679CFCF5}
