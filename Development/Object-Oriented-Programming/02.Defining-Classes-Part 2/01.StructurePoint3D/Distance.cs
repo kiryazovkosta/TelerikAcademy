@@ -5,7 +5,7 @@
 // <date>1/9/2018 4:49:56 PM</date>
 // <summary>Class representing a Distance entity</summary>
 
-namespace 01.StructurePoint3D
+namespace StructurePoint3D
 {
 	#region Usings
 	using System;
@@ -14,7 +14,13 @@ namespace 01.StructurePoint3D
 	
 	#endregion 
 
-    public class Distance
+    public static class Distance
     {
+        public static float Calculate(Point3D firstPoint, Point3D secondPoint)
+        {
+            float distX = (float)Math.Pow(secondPoint.X - firstPoint.X, 2);
+            float distY = (float)Math.Pow(secondPoint.Y - firstPoint.Y, 2);
+            float distZ = (float)Math.Pow(secondPoint.Z - firstPoint.Z, 2);
+        }
     }
 }
