@@ -9,22 +9,11 @@ namespace GsmUniverse
 {
     #region Usings
     using System;
-    using System.Collections.Generic;
-    using System.Linq;
-    using System.Text;
-    using System.Threading.Tasks;
-
     #endregion
 
     public class Battery
     {
-        public string Model { get; set; }
-
-        public ushort IdleHours { get; set; }
-
-        public ushort TalkHours { get; set; }
-
-        public BatteryType BatteryType { get; set; }
+        private string model;
 
         public Battery()
             : this(null, 0, 0, BatteryType.UnKnown)
@@ -38,5 +27,23 @@ namespace GsmUniverse
             this.TalkHours = talkParam;
             this.BatteryType = batteryTypeParam;
         }
+
+        public string Model
+        {
+            get
+            {
+                return this.model;
+            }
+            set
+            {
+                this.model = value;
+            }
+        }
+
+        public ushort IdleHours { get; set; }
+
+        public ushort TalkHours { get; set; }
+
+        public BatteryType BatteryType { get; set; }
     }
 }

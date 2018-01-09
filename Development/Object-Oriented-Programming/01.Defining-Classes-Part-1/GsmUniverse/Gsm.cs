@@ -10,20 +10,22 @@ namespace GsmUniverse
     #region Usings
     using System;
     using System.Collections.Generic;
-    using System.Linq;
     using System.Text;
-    using System.Threading.Tasks;
-
     #endregion
 
     public class Gsm
     {
+        private static Gsm iPhone4S = new Gsm("IPhone 4S", "Apple", 900, "Az", 
+            new Battery("A99-ZL", 400, 180, BatteryType.LiIon), 
+            new Display(5, 2000000000));
+
         private string model;
-        private string manufacturer { get; set; }
-        public decimal? price { get; set; }
-        public string Owner { get; set; }
-        public Battery Battery { get; set; }
-        public Display Display { get; set; }
+
+        private string manufacturer;
+
+        private decimal? price;
+
+        private List<Call> callHistory;
 
         public Gsm(string modelParam, string manufacturerParam)
             : this(modelParam, manufacturerParam, null, null, null, null)
@@ -39,6 +41,7 @@ namespace GsmUniverse
             this.Owner = ownerParam;
             this.Battery = batteryParam;
             this.Display = displayParam;
+            this.callHistory = new List<Call>();
         }
 
         public string Model
@@ -47,7 +50,7 @@ namespace GsmUniverse
             {
                 return this.model;
             }
-            set
+            private set
             {
                 if (string.IsNullOrWhiteSpace(value))
                 {
@@ -64,7 +67,7 @@ namespace GsmUniverse
             {
                 return this.manufacturer;
             }
-            set
+            private set
             {
                 if (string.IsNullOrWhiteSpace(value))
                 {
@@ -90,6 +93,69 @@ namespace GsmUniverse
 
                 this.price = value;
             }
+        }
+
+        public static Gsm IPhone4S
+        {
+            get
+            {
+                return iPhone4S;
+            }
+        }
+
+        public string Owner { get; set; }
+        public Battery Battery { get; set; }
+        public Display Display { get; set; }
+
+        public List<Call> CallHoistory
+        {
+            get
+            {
+                return this.callHistory;
+            }
+        }
+
+        public void AddCall(Call callParam)
+        {
+            this.CallHoistory.Add(callParam);
+        }
+
+        public void AddRangeCall(List<Call> callsParam)
+        {
+            this.CallHoistory.AddRange(callsParam);
+        }
+
+        public bool RemoveCall(Call callParam)
+        {
+            return this.CallHoistory.Remove(callParam);
+        }
+
+        public void ClearCalls()
+        {
+            this.CallHoistory.Clear();
+        }
+
+        public void PrintCallHistory()
+        {
+            Console.WriteLine("Calls");
+            foreach (Call call in this.CallHoistory)
+            {
+                Console.WriteLine(call.ToString());
+            }
+        }
+
+        public decimal CalculateTotalCallPrice(decimal pricePerMinute)
+        {
+            decimal result = 0.0m;
+            int totalDurration = 0;
+            foreach (Call call in this.CallHoistory)
+            {
+                totalDurration += call.Duration;
+            }
+
+            result = (totalDurration / 60.00m) * pricePerMinute;
+            Console.WriteLine($"{totalDurration}");
+            return result;
         }
 
         public override string ToString()
