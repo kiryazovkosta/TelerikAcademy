@@ -11,9 +11,12 @@ namespace StructurePoint3D
 	using System;
 	using System.Collections.Generic;
 	using System.Text;
-	
-	#endregion 
 
+    #endregion
+
+    /// <summary>
+    /// Write a static class with a static method to calculate the distance between two points in the 3D space.
+    /// </summary>
     public static class Distance
     {
         public static float Calculate(Point3D firstPoint, Point3D secondPoint)
@@ -21,6 +24,8 @@ namespace StructurePoint3D
             float distX = (float)Math.Pow(secondPoint.X - firstPoint.X, 2);
             float distY = (float)Math.Pow(secondPoint.Y - firstPoint.Y, 2);
             float distZ = (float)Math.Pow(secondPoint.Z - firstPoint.Z, 2);
+
+            return (float)Math.Sqrt(distX + distY + distZ);
         }
     }
 }

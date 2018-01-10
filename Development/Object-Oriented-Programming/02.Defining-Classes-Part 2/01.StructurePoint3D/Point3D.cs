@@ -11,9 +11,15 @@ namespace StructurePoint3D
 	using System;
 	using System.Collections.Generic;
 	using System.Text;
-	
-	#endregion 
 
+    #endregion
+
+    /// <summary>
+    /// Create a structure Point3D to hold a 3D-coordinate {X, Y, Z} in the Euclidian 3D space.
+    /// Implement the ToString() to enable printing a 3D point.
+    /// Add a private static read-only field to hold the start of the coordinate system – the point O{0, 0, 0}.
+    /// Add a static property to return the point O.
+    /// </summary>
     public struct Point3D
     {
         private const string OutputFormatter = "F2";
@@ -41,7 +47,7 @@ namespace StructurePoint3D
 
         public override string ToString()
         {
-            return $"Point[{this.X.ToString(OutputFormatter)}, {this.Y.ToString(OutputFormatter)}, {this.Z.ToString(OutputFormatter)}]";
+            return $"[{this.X.ToString(OutputFormatter)};{this.Y.ToString(OutputFormatter)};{this.Z.ToString(OutputFormatter)}]";
         }
     }
 }
