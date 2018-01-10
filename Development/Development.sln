@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27130.2010
+VisualStudioVersion = 15.0.27130.2020
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01.CSharpBasic", "01.CSharpBasic", "{FFB945EB-B783-4385-A2A0-B792D57B2E27}"
 	ProjectSection(SolutionItems) = preProject
@@ -305,7 +305,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GsmUniverse", "Object-Orien
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02.Defining-Classes-Part 2", "02.Defining-Classes-Part 2", "{294812B5-CA1F-4D21-845E-A6371EC3A701}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.StructurePoint3D", "Object-Oriented-Programming\02.Defining-Classes-Part 2\01.StructurePoint3D\01.StructurePoint3D.csproj", "{9E63B01B-269F-4712-BC45-634E1035FEF3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.StructurePoint3D", "Object-Oriented-Programming\02.Defining-Classes-Part 2\01.StructurePoint3D\01.StructurePoint3D.csproj", "{9E63B01B-269F-4712-BC45-634E1035FEF3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.GenericClass", "Object-Oriented-Programming\02.Defining-Classes-Part 2\05.GenericClass\05.GenericClass.csproj", "{CFB41F4B-7B71-4FFE-ADD9-2AE554DECB64}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08.Matrix", "Object-Oriented-Programming\02.Defining-Classes-Part 2\08.Matrix\08.Matrix.csproj", "{570973EF-384A-4F21-912B-585A75AAD2B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11.VersionAttribute", "Object-Oriented-Programming\02.Defining-Classes-Part 2\11.VersionAttribute\11.VersionAttribute.csproj", "{CC85E025-C7C0-4D9F-BDFA-F610A78700CE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -833,6 +839,18 @@ Global
 		{9E63B01B-269F-4712-BC45-634E1035FEF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9E63B01B-269F-4712-BC45-634E1035FEF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9E63B01B-269F-4712-BC45-634E1035FEF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFB41F4B-7B71-4FFE-ADD9-2AE554DECB64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFB41F4B-7B71-4FFE-ADD9-2AE554DECB64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFB41F4B-7B71-4FFE-ADD9-2AE554DECB64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFB41F4B-7B71-4FFE-ADD9-2AE554DECB64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{570973EF-384A-4F21-912B-585A75AAD2B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{570973EF-384A-4F21-912B-585A75AAD2B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{570973EF-384A-4F21-912B-585A75AAD2B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{570973EF-384A-4F21-912B-585A75AAD2B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC85E025-C7C0-4D9F-BDFA-F610A78700CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC85E025-C7C0-4D9F-BDFA-F610A78700CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC85E025-C7C0-4D9F-BDFA-F610A78700CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC85E025-C7C0-4D9F-BDFA-F610A78700CE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -984,6 +1002,9 @@ Global
 		{979CAFDC-D50F-4A76-AE64-0FF96E28943D} = {D6FF7DFC-EE10-4722-AE26-953BC05D175E}
 		{294812B5-CA1F-4D21-845E-A6371EC3A701} = {980C5270-4E48-45F4-9C06-F2942A50D2D4}
 		{9E63B01B-269F-4712-BC45-634E1035FEF3} = {294812B5-CA1F-4D21-845E-A6371EC3A701}
+		{CFB41F4B-7B71-4FFE-ADD9-2AE554DECB64} = {294812B5-CA1F-4D21-845E-A6371EC3A701}
+		{570973EF-384A-4F21-912B-585A75AAD2B7} = {294812B5-CA1F-4D21-845E-A6371EC3A701}
+		{CC85E025-C7C0-4D9F-BDFA-F610A78700CE} = {294812B5-CA1F-4D21-845E-A6371EC3A701}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {41F87646-8465-425A-8B7B-268D679CFCF5}

@@ -77,28 +77,28 @@
             }
 
             // diagonal check - first half
-            for (int rowIndex = rowNumber - 1; rowIndex >= 0; rowIndex--)
-            {
-                currentSequence = 1;
+            //for (int rowIndex = rowNumber - 1; rowIndex >= 0; rowIndex--)
+            //{
+            //    currentSequence = 1;
 
-                for (int colIndex = 0; rowIndex < rowNumber - 1; rowIndex++)
-                {
-                    //if (numbers[rowIndex, colIndex] == numbers[rowIndex + 1, colIndex])
-                    //{
-                    //    currentSequence++;
-                    //}
+            //    for (int colIndex = 0; rowIndex < rowNumber - 1; rowIndex++)
+            //    {
+            //        //if (numbers[rowIndex, colIndex] == numbers[rowIndex + 1, colIndex])
+            //        //{
+            //        //    currentSequence++;
+            //        //}
 
-                    //if (currentSequence > maxSequence)
-                    //{
-                    //    maxSequence = currentSequence;
-                    //}
+            //        //if (currentSequence > maxSequence)
+            //        //{
+            //        //    maxSequence = currentSequence;
+            //        //}
 
-                    //if (numbers[rowIndex, colIndex] != numbers[rowIndex + 1, colIndex])
-                    //{
-                    //    currentSequence = 1;
-                    //}
-                }
-            }
+            //        //if (numbers[rowIndex, colIndex] != numbers[rowIndex + 1, colIndex])
+            //        //{
+            //        //    currentSequence = 1;
+            //        //}
+            //    }
+            //}
 
             Console.WriteLine(maxSequence);
         }
