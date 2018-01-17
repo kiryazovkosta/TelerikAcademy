@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{CFB41F4B-7B71-4FFE-ADD9-2AE554DECB64}</ProjectGuid>
+    <ProjectGuid>{14BC90EC-CE71-4A45-8463-794D5009C70F}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_05.GenericClass</RootNamespace>
-    <AssemblyName>05.GenericClass</AssemblyName>
+    <RootNamespace>_09.StudentGroups</RootNamespace>
+    <AssemblyName>09.StudentGroups</AssemblyName>
     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,12 +42,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="GenericClassDemo.cs" />
-    <Compile Include="GenericList.cs" />
+    <Compile Include="StudentGroups.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
+    <ProjectReference Include="..\Utility\Utility.csproj">
+      <Project>{d1aff734-f8da-48da-b169-3910997a7294}</Project>
+      <Name>Utility</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
