@@ -4,6 +4,7 @@
     using System.Collections.Generic;
     using System.Linq;
     using Utility;
+    using Utility.Contracts;
 
     public class LambdaExpression
     {
@@ -17,7 +18,7 @@
             dividedNumbers.Each(Console.WriteLine);
         }
 
-        public static IEnumerable<Student> Order(IEnumerable<Student> students)
+        public static IEnumerable<IStudent> Order(IEnumerable<IStudent> students)
         {
             var ordererStudents = students.OrderByDescending(s => s.FirstName).ThenBy(s => s.LastName);
             return ordererStudents;
