@@ -6,7 +6,7 @@
 
     public class Student : IStudent
     {
-        private static List<IStudent> students = new List<IStudent>()
+        private static IList<IStudent> students = new List<IStudent>()
         {
             new Student { FirstName = "Ivan", LastName = "Popov", Age = 16 , FaculteteNumber = 201801010001, Email="ivan@yahoo.com", Telephone="02896512345", GroupNumber = 1, Marks = new List<int>(){ 2, 4, 5, 3, 2, 6, 3 } },
             new Student { FirstName = "Kiril", LastName = "Angelov", Age = 22, FaculteteNumber = 201801010002, Email="kiril@abv.bg", Telephone="+359296512345", GroupNumber = 1, Marks = new List<int>(){ 4, 2, 5, 3, 4, 6, 3 } },
@@ -29,7 +29,7 @@
         private long faculteteNumber;
         private string telephone;
         private string email;
-        private List<int> marks = new List<int>();
+        private IList<int> marks = new List<int>();
         private int groupNumber;
 
         public string FirstName
@@ -175,7 +175,7 @@
             }
         }
 
-        public static List<IStudent> Students
+        public static IList<IStudent> Students
         {
             get
             {
