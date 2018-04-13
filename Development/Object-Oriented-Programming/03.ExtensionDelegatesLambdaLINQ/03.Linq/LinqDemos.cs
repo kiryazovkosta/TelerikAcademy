@@ -4,6 +4,7 @@
     using System.Collections.Generic;
     using System.Linq;
     using Utility;
+    using Utility.Contracts;
 
     public class LinqDemos
     {
@@ -39,7 +40,7 @@
         /// </summary>
         /// <param name="students"></param>
         /// <returns></returns>
-        public static IEnumerable<Student> GetStudentsWithFirstNameBeforeLastNameAlphabetically(IEnumerable<Student> students)
+        public static IEnumerable<IStudent> GetStudentsWithFirstNameBeforeLastNameAlphabetically(IEnumerable<IStudent> students)
         {
             var selectedStudents =
                 from student in students
@@ -53,7 +54,7 @@
         /// </summary>
         /// <param name="students"></param>
         /// <returns></returns>
-        public static IEnumerable<Student> GetStudentsInAgeRange(IEnumerable<Student> students)
+        public static IEnumerable<IStudent> GetStudentsInAgeRange(IEnumerable<IStudent> students)
         {
             var selectedStudents =
                 from student in students
@@ -68,7 +69,7 @@
         /// </summary>
         /// <param name="students"></param>
         /// <returns></returns>
-        public static IEnumerable<Student> OrderStudents(IEnumerable<Student> students)
+        public static IEnumerable<IStudent> OrderStudents(IEnumerable<IStudent> students)
         {
             var orderedStudents =
                 from student in students

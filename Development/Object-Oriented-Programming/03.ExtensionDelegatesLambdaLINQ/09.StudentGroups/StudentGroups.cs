@@ -6,6 +6,7 @@
     using System.Text;
     using System.Threading.Tasks;
     using Utility;
+    using Utility.Contracts;
 
     public class StudentGroups
     {
@@ -68,9 +69,11 @@
             }
 
             Console.WriteLine();
+
+            // Extract all Marks of the students that enrolled in 2006. (The students from 2006 have 06 as their 5-th and 6-th digit in the FN).
         }
 
-        public static IEnumerable<Student> GetStudentsFromGroupLinq(IEnumerable<Student> students, int groupNumber)
+        public static IEnumerable<IStudent> GetStudentsFromGroupLinq(IEnumerable<IStudent> students, int groupNumber)
         {
             var orderedStudents =
                 from student in students
@@ -80,7 +83,7 @@
             return orderedStudents;
         }
 
-        public static IEnumerable<Student> GetStudentsFromGroupEM(IEnumerable<Student> students, int groupNumber)
+        public static IEnumerable<IStudent> GetStudentsFromGroupEM(IEnumerable<IStudent> students, int groupNumber)
         {
             var orderedStudents = students
                 .Where(x => x.GroupNumber == groupNumber)
@@ -89,7 +92,7 @@
             return orderedStudents;
         }
 
-        public static IEnumerable<Student> GetStudentsByEmail(IEnumerable<Student> students, string email)
+        public static IEnumerable<IStudent> GetStudentsByEmail(IEnumerable<IStudent> students, string email)
         {
             var selectedStudents =
                 from student in students
@@ -99,7 +102,7 @@
             return selectedStudents;
         }
 
-        public static IEnumerable<Student> ExtractStudentsByPhoneInSofia(IEnumerable<Student> students)
+        public static IEnumerable<IStudent> ExtractStudentsByPhoneInSofia(IEnumerable<IStudent> students)
         {
             var selectedStudents =
                 from student in students
