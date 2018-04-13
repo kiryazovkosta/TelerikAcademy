@@ -108,5 +108,11 @@
 
             return selectedStudents;
         }
+
+        public static ICollection<int> ExtractMarks(IEnumerable<Student> students, string year)
+        {
+            var marks = students.Where(x => x.StudentYearByFacultetNumber() == year).SelectMany(x => x.Marks).ToList();
+            return marks;
+        }
     }
 }
