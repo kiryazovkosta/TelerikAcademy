@@ -57,7 +57,7 @@
 
             // Write down a similar program that extracts the students with exactly two marks "2". Use extension methods.
             var weakStudents = students
-                .Where(x => x.Marks.FindAll(s => s == 2).Count() == 2)
+                .Where(x => x.Marks.Where(s => s == 2).Count() == 2)
                 .Select(s => new
                 {
                     FullName = $"{s.FirstName} {s.LastName}",

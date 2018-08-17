@@ -24,7 +24,7 @@ namespace Utility.Contracts
         long FaculteteNumber { get; set; }
         string Telephone { get; set; }
         string Email { get; set; }
-        List<int> Marks { get; set; }
+        IList<int> Marks { get; set; }
         int GroupNumber { get; set; }
     }
 }

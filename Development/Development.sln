@@ -327,6 +327,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.LambdaExpressions", "Obj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09.StudentGroups", "Object-Oriented-Programming\03.ExtensionDelegatesLambdaLINQ\09.StudentGroups\09.StudentGroups.csproj", "{14BC90EC-CE71-4A45-8463-794D5009C70F}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04.OOP-Principles-PartOne", "04.OOP-Principles-PartOne", "{7D2C5FAC-8E72-4707-8B20-949C33636AFC}"
+	ProjectSection(SolutionItems) = preProject
+		Object-Oriented-Programming\04.OOP-Principles-PartOne\_readme.txt = Object-Oriented-Programming\04.OOP-Principles-PartOne\_readme.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.SchoolClasses", "Object-Oriented-Programming\04.OOP-Principles-PartOne\01.SchoolClasses\01.SchoolClasses.csproj", "{36147E01-4324-4D9E-966B-47D36F7FEC59}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -889,6 +896,10 @@ Global
 		{14BC90EC-CE71-4A45-8463-794D5009C70F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{14BC90EC-CE71-4A45-8463-794D5009C70F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{14BC90EC-CE71-4A45-8463-794D5009C70F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36147E01-4324-4D9E-966B-47D36F7FEC59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36147E01-4324-4D9E-966B-47D36F7FEC59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36147E01-4324-4D9E-966B-47D36F7FEC59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36147E01-4324-4D9E-966B-47D36F7FEC59}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1050,6 +1061,8 @@ Global
 		{0D6E0D3E-5076-414A-9F46-128C6187BC17} = {8EE29172-580C-49E0-8C64-B41A75507D5D}
 		{9EC61B0D-209A-4DDC-911B-0D6DCDD4C728} = {8EE29172-580C-49E0-8C64-B41A75507D5D}
 		{14BC90EC-CE71-4A45-8463-794D5009C70F} = {8EE29172-580C-49E0-8C64-B41A75507D5D}
+		{7D2C5FAC-8E72-4707-8B20-949C33636AFC} = {980C5270-4E48-45F4-9C06-F2942A50D2D4}
+		{36147E01-4324-4D9E-966B-47D36F7FEC59} = {7D2C5FAC-8E72-4707-8B20-949C33636AFC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {41F87646-8465-425A-8B7B-268D679CFCF5}

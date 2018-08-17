@@ -83,6 +83,11 @@
             }
         }
 
+        public string StudentYearByFacultetNumber()
+        {
+            return this.faculteteNumber.ToString().Substring(0, 4);
+        }
+
         public long FaculteteNumber
         {
             get
@@ -138,7 +143,7 @@
             }
         }
 
-        public List<int> Marks
+        public IList<int> Marks
         {
             get
             {
